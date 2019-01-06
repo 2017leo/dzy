@@ -222,6 +222,7 @@ a:active {text-decoration:none ; color:#282828;}
 	width: 1180px;
 	height: 40px;
 	margin:0 auto;
+	line-height: 40px;
 }
 
 .zhuti{
@@ -230,6 +231,78 @@ a:active {text-decoration:none ; color:#282828;}
 	height: 634px;
     margin:0 auto;
 	background-color: #ffffff;
+}
+.fangshaitu{
+	position: absolute;
+	width: 410px;
+	height: 410px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border:1px solid #e5e5e5;
+}
+.fxiaotu1{
+	position: absolute;
+	margin-top: 454px;
+	margin-left: 20px;
+	height: 62px;
+	width: 26px;
+}
+.fxiaotu2{
+	position: absolute;
+	margin-top: 454px;
+	margin-left: 46px;
+	height: 62px;
+	width: 62px;
+}
+.fxiaotu3{
+	position: absolute;
+	margin-top: 454px;
+	margin-left: 109px;
+	height: 62px;
+	width: 62px;
+}
+.fxiaotu4{
+	position: absolute;
+	margin-top: 454px;
+	margin-left: 406px;
+	height: 62px;
+	width: 26px;
+}
+.youyouzi{
+	width: 770px;
+	height: 80px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 450px;
+}
+.jiagee{
+	position: absolute;
+	width: 210px;
+	height: 30px;
+	margin-top: 116px;
+	margin-left: 470px;
+	font-size: 13px;
+}
+.chengzi{
+	font-size: 16px;
+	color: #ff4d04;
+}
+.hengh{
+	text-decoration:line-through;
+}
+.vipyouhui{
+	width: 500px;
+	height: 74px;
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 146px;
+}
+.jiatu{
+	position: absolute;
+	width: 480px;
+	height: 40px;
+	margin-left: 450px;
+	margin-top: 334px;
 }
 
 
