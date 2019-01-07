@@ -4,6 +4,8 @@
 	margin:0 auto;
 	background-color: #ffffff;
 	font-size: 13px;
+	z-index: 9999;
+
 }
 .ding{
 	position: absolute;
@@ -232,7 +234,7 @@ a:active {text-decoration:none ; color:#282828;}
     margin:0 auto;
 	background-color: #ffffff;
 }
-.fangshaitu{
+#bbo{
 	position: absolute;
 	width: 410px;
 	height: 410px;
@@ -240,6 +242,51 @@ a:active {text-decoration:none ; color:#282828;}
 	margin-top: 20px;
 	border:1px solid #e5e5e5;
 }
+#bbo2{
+	position: absolute;
+	width: 410px;
+	height: 410px;
+	margin-left: 430px;
+	margin-top: 20px;
+	border:1px solid #e5e5e5;
+	display:none;
+	z-index: 9999;
+	background-color: white;
+}
+#img11{
+	width:410px;
+	height:410px;
+	position:absolute;
+}
+#slider{
+	width:100px;
+	height:100px;
+	position:absolute;
+/*	left:0;
+	top:0;*/
+	background:#CCC;
+	opacity:0.4;
+	cursor: move;
+	display:none; 
+	filter:alpha(opacity=40);
+}
+
+#img22{
+	position:absolute;
+	right:0;
+	top:0; 
+	width:410px;
+	height:410px;
+	overflow:hidden;
+}
+
+#Bimg{
+	position:absolute;
+	left:0
+	;top:0;
+}
+
+
 .fxiaotu1{
 	position: absolute;
 	margin-top: 454px;

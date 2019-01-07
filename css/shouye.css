@@ -4,6 +4,7 @@
 	margin:0 auto;
 	background-color: #ffffff;
 	font-size: 13px;
+	z-index: 9999;
 }
 .ding{
 	position: absolute;
@@ -70,7 +71,7 @@
 	height: 15px;
 }
 .help5{
-	margin-top: 42px;
+	margin-top: 22px;
 	width: 150px;
 	height: 64px;
 }
@@ -102,7 +103,7 @@ a:active {text-decoration:none ; color:#282828;}
 	width: 590px;
 	height: 42px;
 	position: absolute;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 250px;
 	background-color: #ff4d04;
 }
@@ -112,26 +113,26 @@ a:active {text-decoration:none ; color:#282828;}
 	font-size: 16px;
 }
 .shuru{
-	margin-left: 3px;
-	margin-top: 3px;
+	margin-left: 4px;
+	margin-top: 4px;
 }
 .tutu{
 	position: absolute;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 920px;
 	width: 85px;
 	height: 42px;
 }
 .tutu2{
 	position: absolute;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 1005px;
 	width: 268px;
 	height: 42px;
 }
 .tutu3{
 	position: absolute;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 1090px;
 	width: 268px;
 	height: 42px;
@@ -139,7 +140,7 @@ a:active {text-decoration:none ; color:#282828;}
 .shangpin{
 	position: absolute;
 	margin-left: 254px;
-	margin-top: 95px;
+	margin-top: 90px;
 	width: 580px;
 	height: 14px;
 }
@@ -207,7 +208,7 @@ a:active {text-decoration:none ; color:#282828;}
 	height: 14px;
 }
 .xiaxia{
-	margin-top: -8px;
+	/*margin-top: -8px;*/
 	background-color: #f8f7f6;
 }
 /*主体*/
@@ -238,14 +239,83 @@ a:active {text-decoration:none ; color:#282828;}
 	font-size: 12px;
 }
 
-.lunbo{
+/*.lunbo{
 	position: absolute;
 	
 	margin-left: 170px;
 	width: 800px;
 	height: 362px;
 	background-color: blue;
+}*/
+
+*{
+	padding: 0;
+	margin: 0;
 }
+ul,li{
+	list-style: none;
+}
+.box{
+	position: absolute;
+	
+	margin-left: 170px;
+	width: 800px;
+	height: 362px;
+/*	border: 1px solid red;*/
+	
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 5600px;
+	position: absolute;
+	left: -800px;
+}
+.slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+
+
+
 .zuoxia{
 	position: absolute;
 	margin-top: 422px;
