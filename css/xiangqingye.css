@@ -352,8 +352,107 @@ a:active {text-decoration:none ; color:#282828;}
 	margin-top: 334px;
 }
 
+.carbtn0{
+	float:left;
+	padding:0 20px; 
+	height:35px;
+ 	background:white; 
+ 	color:#ff0754; 
+ 	border: 1px solid #ff0754;
+ 	font-size:14px; 
+ 	text-align:center; 
+ 	line-height:35px;
+ 	margin-top:10px; 
+ 	border-radius:3px;
+	position: absolute; 
+	margin-left: 474px;
+	margin-top: 410px;
+}
 
+body{
+	margin:0px; 
+	padding:0px; 
+	font-size:12px; 
+	font-family:'Microsoft Yahei';
+}
+a{ 
+	text-decoration:none;
+}
+.carbtn{
+	float:left;
+	padding:0 20px; height:35px;
+	background:white; 
+	color:#ff0754; border: 1px solid #ff0754;
+	font-size:14px; text-align:center; 
+	line-height:35px;
+ 	margin-top:10px; 
+ 	border-radius:3px;
+ }
+.carbtn1{
+	float:left;
+	padding:0 20px; 
+	height:35px;
+	background:#ff0754; 
+	color:white;font-size:14px; 
+	text-align:center;
+	line-height:35px; 
+	margin-top:10px; 
+	border-radius:3px;
+	position: absolute; 
+	margin-left: 610px;
+	margin-top: 410px;
+}
 
+.carbtn.bg{
+	background:white; 
+	margin-left:10px;
+	border: 1px solid #ff0754;
+}
+.mask{
+	background:#000;
+	opacity:0.2; 
+	position:absolute; 
+	left:0px; top:0px; 
+	z-index:1000; 
+	width:100%; height:100%; 
+	display:none; 
+}
+.alertBox{
+	width:410px; 
+	height:226px; 
+	position:fixed; 
+	background:#FFF;z-index:1001; 
+	left:50%; margin-left:-202px;
+	top:0px; 
+	display:none;
+	opacity:0; 
+	border: 3px solid #aca9d3;
+}
+
+.alertBox .altext{
+	margin-left: 70px;
+	margin-top: 50px; 
+	line-height:22px; 
+	font-size:18px;
+	color: gray;
+}
+.alertBox .altext b{ 
+	font-size:18px; 
+	color:#e00471;
+}
+.alertBox .albtn{ 
+	text-align:center; 
+	width:100%;
+}
+.alertBox .albtn a{ 
+	float:none; 
+	display:inline-block; 
+	margin:0 10px;
+}
+.alertBox .albtn a.bg{
+	background:#ff0754;
+	color: white;
+}
 
 .zhuyou{
 	position: absolute;

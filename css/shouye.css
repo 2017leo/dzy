@@ -391,8 +391,14 @@ ul,li{
 	margin-left: 970px;
 	width: 210px;
 	height: 320px;
-	background-color: red;
+	background:white;
+	overflow:hidden;
+	font-size: 14px;
+	color: #ff4d04;	
 }
+#gunbo li{height:15px;line-height:15px;}
+*ul,li{list-style:none;display:block;}
+
 .chongzhi{
 	position: absolute;
 	margin-top: 362px;

@@ -122,6 +122,25 @@ var money = document.getElementById('money');
 var gensui = document.getElementById('gensui');
 money.onchange = function(){
 	gensui.innerHTML = "¥"+money.value;
- }
+}
 
- 
+
+        var area =document.getElementById('gunbo');
+        var gonggao1 = document.getElementById('gonggao1');
+        var gonggao2 = document.getElementById('gonggao2');
+        gonggao2.innerHTML=gonggao1.innerHTML;
+        function scrollUp(){
+        if(area.scrollTop>=gonggao1.offsetHeight){
+            area.scrollTop=0;
+            }else{
+            area.scrollTop++;
+            }
+        }                
+        var time = 50;
+        var mytimer=setInterval(scrollUp,time);
+        area.onmouseover=function(){
+            clearInterval(mytimer);
+        }
+        area.onmouseout=function(){
+            mytimer=setInterval(scrollUp,time);
+        }
